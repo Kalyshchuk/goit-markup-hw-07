@@ -19,14 +19,18 @@
     margin-left: 30px;
 }
 
-.site-auth .main-tel:hover,
-.site-auth .main-tel:focus {
-    color: var(--accent-color);
+.site-auth .main-tel {
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+    }
 }
 
-.site-auth .main-mail:hover,
-.site-auth .main-mail:focus {
-    color: var(--accent-color);
+.site-auth .main-mail {
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+    }
 }
 
 .site-auth__item .main-mail {

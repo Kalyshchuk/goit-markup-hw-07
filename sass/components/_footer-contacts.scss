@@ -36,19 +36,25 @@
     margin-bottom: 0;
 }
 
-.address-list .map:hover,
-.address-list .map:focus {
-    color: var(--accent-color);
+.address-list .map {
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+    }
 }
 
-.address-list .mail:hover,
-.address-list .mail:focus {
-    color: var(--accent-color);
+.address-list .mail {
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+    }
 }
 
-.address-list .tel:hover,
-.address-list .tel:focus {
-    color: var(--accent-color);
+.address-list .tel {
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+    }
 }
 
 .footer .map {
@@ -136,8 +142,10 @@
     margin-right: 0;
 }
 
-.instagram:hover {
-    background-color: var(--accent-color);
+.instagram {
+    &:hover {
+        background-color: var(--accent-color);
+    }
 }
 
 .icons-link {
@@ -175,8 +183,10 @@
     color: #757575;
 }
 
-.email:focus {
-    border: rgba(255, 255, 255, 0.3);
+.email {
+    &:focus {
+        border: rgba(255, 255, 255, 0.3);
+    }
 }
 
 .telegram {
